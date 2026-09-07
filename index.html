@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio Evan — graphic designer, brand identity, dan digital campaigns.">
+  <meta name="theme-color" content="#050507">
+  <title>Evan — Design Portfolio</title>
+  <style>
+:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#f3f4f7;background:#050507;--muted:#a0a2ae;--line:#ffffff24;font-size:16px;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:#050507}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer;color:inherit}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible{outline:3px solid #63ddff;outline-offset:5px}button{border:0}button:hover,a:hover{filter:brightness(1.12)}.skip{position:fixed;top:-80px;z-index:20;background:#fff;color:#000;padding:15px}.skip:focus{top:10px}
+.menubar{max-width:1320px;margin:auto;height:100px;padding:0 42px;display:flex;justify-content:space-between;align-items:center;position:relative;z-index:3}.logo{font-size:2rem;font-weight:750;letter-spacing:-.08em}.logo span{font-size:.875rem;font-weight:400;letter-spacing:0;color:#a0a2ae;margin-left:12px}.navigation{display:flex;align-items:center;gap:5px;padding:6px;border:1px solid #ffffff35;background:linear-gradient(135deg,#ffffff16,#ffffff04);box-shadow:inset 0 1px #ffffff25,0 8px 35px #0006;border-radius:40px;backdrop-filter:blur(20px)}.nav-button{min-height:40px;padding:10px 22px;background:none;color:#b3b4bc;font-size:.875rem;border-radius:30px}.nav-button[aria-current="page"]{background:#ffffff13;color:white}.nav-button:last-child{background:#f3f3f4;color:#151519}.clock-wrap{font-size:.75rem;color:#a3a3ac;display:flex;gap:8px}
+.desktop{max-width:1236px;margin:auto;padding:0 36px 25px;position:relative;isolation:isolate}.desktop:before{content:"";position:absolute;z-index:-2;pointer-events:none;width:90%;height:600px;top:30px;left:5%;background:radial-gradient(ellipse at 65% 55%,#08419a70,transparent 55%),radial-gradient(ellipse at 35% 80%,#00758650,transparent 48%);filter:blur(35px)}.desktop:after{content:"";position:absolute;z-index:-1;pointer-events:none;width:70%;height:220px;top:285px;left:16%;border-radius:50%;border-top:2px solid #88e9ff55;box-shadow:0 -18px 35px -25px #a6f4ff,0 -65px 80px -65px #248fff;transform:rotate(-23deg)}.window,.workspace{min-width:0}.main{min-width:0;outline:none}.hero{position:relative;text-align:center;padding:52px 0 38px}.eyebrow{font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:#a4b5c4}.hero h1{font-weight:650;font-size:clamp(4.1rem,10.6vw,8.7rem);letter-spacing:-.085em;line-height:.98;margin:22px 0 24px}.hero h1 span{background:linear-gradient(100deg,#737f90 2%,#f6fcff 35%,#6ddef5 65%,#345497 100%);background-clip:text;-webkit-background-clip:text;color:transparent}.intro{max-width:480px;margin:0 auto;color:#b0b8c6;line-height:1.75;font-size:1rem}.hero-actions{display:flex;justify-content:center;gap:10px;margin-top:25px}.pill{display:inline-flex;align-items:center;gap:15px;padding:12px 22px;border-radius:28px;border:1px solid #ffffff30;font-size:.875rem;background:#ffffff08}.pill.primary{background:#f4f4f6;color:#111;border-color:#fff}.section-bar{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:22px 0 24px}.section-bar h2{font-size:1.0625rem;font-weight:500;margin:0}.section-bar span{font-size:.75rem;color:#aaaab5}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px}.project{--a:#fca976;--b:#ff689d;--c:#b19dff;min-width:0;position:relative;isolation:isolate;padding:1px;text-align:left;border-radius:23px;background:linear-gradient(135deg,var(--a),#ffffff42 25%,#ffffff13 52%,var(--b) 85%,var(--c));transition:transform .3s,box-shadow .3s;box-shadow:-5px -3px 25px -20px var(--a),4px 7px 30px -22px var(--b)}.project:nth-child(2){--a:#a8ecff;--b:#31b7ff;--c:#5465ff}.project:nth-child(3){--a:#b68cff;--b:#ec82ef;--c:#6976ff}.project:nth-child(4){--a:#91e6d3;--b:#3e9daa;--c:#7fbbf7}.project:hover{transform:translateY(-6px);box-shadow:-8px -4px 38px -22px var(--a),8px 10px 40px -22px var(--b)}.cover{height:265px;position:relative;overflow:hidden;border-radius:22px 22px 0 0;padding:27px;background:radial-gradient(ellipse at 90% -30%,color-mix(in srgb,var(--a,#61cfff) 15%,transparent),transparent 65%),linear-gradient(150deg,#191a1eea,#08090cf7);display:flex;flex-direction:column;justify-content:space-between;color:#eee;isolation:isolate}.cover strong{font-size:clamp(2.8rem,5vw,4.6rem);font-weight:650;line-height:.93;letter-spacing:-.065em;white-space:pre-line;color:var(--a,#a4e1f3)}.cover small,.cover em{font-size:.75rem;letter-spacing:.14em;font-style:normal;color:#a7a7b2}.cover img{position:absolute;inset:0;height:100%;width:100%;object-fit:cover;z-index:-1}.cover.has-image>*:not(img){visibility:hidden}.project-meta{background:linear-gradient(135deg,#16161bee,#0b0c0ff9);border-radius:0 0 22px 22px;padding:22px 25px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid #ffffff10;gap:10px}.project-meta h3{font-size:1rem;margin:0 0 6px;font-weight:500}.project-meta p{font-size:.8125rem;color:#a1a1ae;margin:0}.project-meta>span{display:grid;place-items:center;border:1px solid #ffffff25;background:#ffffff08;border-radius:50%;width:37px;height:37px;flex-shrink:0;font-size:1.2rem}.statusbar{display:flex;justify-content:space-between;gap:15px;margin-top:45px;padding:23px 0;border-top:1px solid #ffffff1a;color:#9194a2;font-size:.75rem}.view[hidden]{display:none}.view:not(#work){max-width:840px;margin:70px auto 110px;min-height:65vh;padding:48px;border:1px solid #ffffff38;border-radius:26px;background:radial-gradient(ellipse at 100% 0,#0b59632b,transparent 55%),linear-gradient(140deg,#17191cd9,#08090cef);box-shadow:inset 0 1px 1px #ffffff40,0 0 55px -35px #50caff}.page-title{font-size:clamp(2.8rem,6vw,4.8rem);line-height:1.05;letter-spacing:-.06em;margin:20px 0 28px;font-weight:600}.prose{font-size:1.0625rem;line-height:1.8;color:#b7b9c4}.tags{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0}.tag{padding:10px 15px;border:1px solid #ffffff29;background:#ffffff06;border-radius:24px;font-size:.875rem}.info-card{border-top:1px solid var(--line);padding-top:20px;margin-top:30px}.info-card h3{font-size:1.2rem}.contact-link{display:inline-flex;align-items:center;gap:12px;margin-top:25px;background:#f5f5f7;color:#15151a;padding:14px 24px;border-radius:30px;overflow-wrap:anywhere}.contact-link[hidden]{display:none}.contact-note,.template-note{font-size:.875rem;line-height:1.7;color:#a6a7b4}.template-note{border-top:1px solid var(--line);margin-top:35px;padding-top:20px}.icon{height:20px;width:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.dock{display:flex;align-items:center;gap:14px;justify-content:center;margin:10px 0 35px}.dock button{position:relative;border:1px solid #ffffff30;border-radius:50%;width:46px;height:46px;display:grid;place-items:center;background:linear-gradient(#ffffff13,#ffffff05);color:#b7bbca}.dock button[aria-current="page"]{color:#8eeaff;border-color:#5abbde80;box-shadow:0 0 20px #1479a52a}.dock button:hover{background:#ffffff20}.titlebar{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding:15px 20px;font-size:.875rem}.close{padding:8px 14px;border-radius:20px;background:#ffffff15;min-height:40px}.window>.titlebar{display:none}dialog{width:calc(100% - 32px);max-width:720px;max-height:88vh;padding:0;border:1px solid #8acae666;border-radius:24px;background:#101115;color:#f6f6f8;box-shadow:0 20px 100px #000c}dialog::backdrop{background:#000b;backdrop-filter:blur(12px)}.dialog-body{padding:25px}.dialog-body .cover{border:1px solid #ffffff20;border-radius:15px}.dialog-body h2{font-size:2rem;letter-spacing:-.045em}.dialog-body p{line-height:1.8;color:#b8bac4}.dialog-body h3{font-size:1rem;margin-top:27px}.noscript{padding:20px}.view{animation:appear .5s ease both}@keyframes appear{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:760px){.menubar{padding:0 22px;height:90px}.clock-wrap,.logo span{display:none}.nav-button{padding:10px 15px}.desktop{padding:0 22px 20px}.hero{padding-top:35px}.hero h1{font-size:clamp(3.8rem,12.5vw,6rem)}.project-grid{gap:18px}.cover{height:230px;padding:20px}.cover strong{font-size:3rem}.project-meta{padding:18px}.project-meta h3{font-size:.9375rem}.view:not(#work){padding:28px;margin:30px auto 70px}.statusbar{flex-wrap:wrap}.desktop:after{top:320px}}
+@media(max-width:520px){.menubar{padding:0 17px}.logo{font-size:1.8rem}.nav-button{padding:10px 13px;font-size:.8125rem}.navigation{gap:0;padding:4px}.desktop{padding:0 17px 20px}.hero{padding:28px 0}.hero h1{font-size:clamp(3.4rem,13vw,4.5rem);letter-spacing:-.07em}.intro{font-size:.9375rem}.hero-actions{gap:8px}.pill{padding:12px 17px}.project-grid{grid-template-columns:1fr;gap:23px}.cover{height:250px;padding:25px}.cover strong{font-size:3.7rem}.section-bar{margin-top:25px}.section-bar span{font-size:.75rem}.project-meta{padding:22px}.page-title{font-size:2.65rem}.contact-link{max-width:100%;font-size:.9375rem}.statusbar{line-height:1.7}.view:not(#work){padding:24px}.dialog-body{padding:18px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* V3 — fixed aurora, scroll parallax, and glass surfaces */
+body{background:#05070e;isolation:isolate}.aurora{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:linear-gradient(165deg,#060811,#05050b 60%,#0b0813)}.aurora-layer{position:absolute;inset:-25%;will-change:transform;transform:translate3d(0,var(--shift,0px),0) rotate(var(--turn,0deg));background:radial-gradient(ellipse at 25% 40%,#186b9666,transparent 40%),radial-gradient(ellipse at 80% 60%,#77379b55,transparent 35%);filter:blur(35px)}.aurora-layer.second{inset:-15%;transform:translate3d(var(--drift,0px),0,0) rotate(-20deg);background:radial-gradient(ellipse at 55% 65%,#1a9caa33,transparent 45%);filter:blur(20px)}.aurora:after{content:"";position:absolute;inset:0;background:linear-gradient(#05070e44,#05070e11 50%,#05070e66)}.menubar{position:sticky;top:0;max-width:none;z-index:5;height:88px;background:#080b1466;backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-bottom:1px solid #ffffff12}.navigation{background:linear-gradient(125deg,#ffffff16,#ffffff04);box-shadow:inset 0 1px #ffffff30,0 8px 24px #0003}.desktop:before,.desktop:after{display:none}.project{background:linear-gradient(125deg,#ffffff60,#ffffff12 25%,#ffffff08 65%,color-mix(in srgb,var(--b) 65%,transparent));backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);box-shadow:inset 0 1px #fff3,0 15px 35px #0003}.cover{background:radial-gradient(ellipse at 100% 0%,color-mix(in srgb,var(--a,#61cfff) 13%,transparent),transparent 70%),linear-gradient(135deg,#151a2499,#0a0c1455)}.project-meta{background:linear-gradient(135deg,#1e253280,#0b0f1977)}.project:hover{box-shadow:0 15px 45px #0005,0 0 30px -18px var(--b);border-color:#ffffff60}.hero{padding-top:62px;padding-bottom:50px}.hero .eyebrow{display:inline-block;padding:9px 15px;border:1px solid #ffffff24;border-radius:30px;background:#ffffff08;backdrop-filter:blur(12px)}.view:not(#work){background:linear-gradient(135deg,#1b223680,#10131c70);backdrop-filter:blur(26px);-webkit-backdrop-filter:blur(26px)}#projects{scroll-margin-top:110px}.dock{padding:12px;width:max-content;margin:10px auto 35px;border:1px solid #ffffff22;border-radius:38px;background:#ffffff08;backdrop-filter:blur(20px)}
+#game{max-width:940px;margin-top:35px;padding:30px}.arcade-header{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:24px}.arcade-header h2{font-size:2.3rem;letter-spacing:-.05em;margin:7px 0 0}.arcade-tag{padding:8px 12px;border:1px solid #83ddff44;border-radius:20px;color:#b7e7f9;font-size:.75rem}.arcade-layout{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:30px;align-items:start}.board-shell{padding:12px;background:#030810a6;border:1px solid #ffffff30;border-radius:22px;box-shadow:inset 0 2px 25px #0007,0 0 35px #1a8aa31c}#snake-board{display:block;width:100%;height:auto;aspect-ratio:1;border-radius:12px;background:#07121c;touch-action:none}#snake-board:focus-visible{outline:2px solid #8eeaff;outline-offset:5px}.score-row{display:flex;justify-content:space-between;gap:15px;margin-bottom:23px}.score-row small{display:block;color:#9daebe;font-size:.75rem;margin-bottom:5px}.score-row strong{font-size:2rem;font-weight:500;font-variant-numeric:tabular-nums}.game-buttons{display:flex;flex-wrap:wrap;gap:10px}.game-buttons button{min-height:44px;justify-content:center}.game-buttons button:disabled{opacity:.4;cursor:default}#game-status{min-height:55px;font-size:.9375rem;line-height:1.6;color:#c3d4e4}.game-help{color:#a5b1c2;font-size:.875rem;line-height:1.75;margin-top:20px}.dpad{display:grid;grid-template-columns:repeat(3,46px);grid-template-rows:repeat(2,46px);gap:7px;justify-content:center;margin-top:22px}.dpad button{background:linear-gradient(#ffffff1a,#ffffff07);border:1px solid #ffffff30;border-radius:12px;font-size:1.25rem;touch-action:manipulation}.dpad button:active{background:#73d9ff40}.dpad button:first-child{grid-column:2}.dpad button:nth-child(2){grid-row:2;grid-column:1}.dpad button:nth-child(3){grid-row:2;grid-column:2}.dpad button:nth-child(4){grid-row:2;grid-column:3}
+@media(max-width:760px){.arcade-layout{grid-template-columns:1fr}.game-panel{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.game-panel .game-help{grid-column:1/-1}.dpad{grid-column:2;grid-row:1/4;align-self:center;margin:0}.game-buttons{grid-column:1}.game-panel #game-status{grid-column:1}.score-row{grid-column:1}.hero{padding-top:35px}.menubar{padding:0 17px}.nav-button{padding:10px 12px}.logo span{display:none}}
+@media(max-width:520px){#game{padding:18px;margin-top:22px}.arcade-header h2{font-size:1.8rem}.arcade-tag{display:none}.game-panel{gap:0 10px}.dpad{grid-template-columns:repeat(3,40px);grid-template-rows:repeat(2,44px);gap:5px}.game-buttons .pill{padding:10px 14px}.nav-button{padding:10px;font-size:.75rem}.navigation{gap:0}.menubar{height:76px;padding:0 12px}.hero{padding-bottom:35px}.logo{font-size:1.6rem}.aurora-layer{filter:blur(20px)}}
+@media(prefers-reduced-motion:reduce){.aurora-layer,.aurora-layer.second{transform:none!important;will-change:auto}}
+
+
+/* V4: persistent dock, frosted menus, pointer-following edge light */
+body{padding-bottom:140px}html{scroll-padding-bottom:135px}
+.dock{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:20;margin:0;padding:14px 17px;gap:18px;border-radius:60px;background:linear-gradient(120deg,#c5ddff16,#626d9618);border:1px solid #ffffff32;backdrop-filter:blur(32px) saturate(150%);-webkit-backdrop-filter:blur(32px) saturate(150%);box-shadow:inset 0 1px 0 #ffffff26,0 16px 45px #0006}
+.dock button{width:54px;height:54px;background:linear-gradient(145deg,#ffffff15,#ffffff05);border-color:#ffffff32}.dock button[aria-current="page"]{background:#5acae818;border-color:#78def990;box-shadow:inset 0 0 18px #80e4ff09,0 0 22px #3be6ff15}.dock button:before{content:attr(aria-label);position:absolute;bottom:67px;padding:7px 11px;font-size:.75rem;background:#182331eb;border:1px solid #ffffff30;border-radius:9px;opacity:0;pointer-events:none;white-space:nowrap}.dock button:hover:before,.dock button:focus-visible:before{opacity:1}
+.navigation{background:linear-gradient(120deg,#d5e8ff1e,#909fce0c);border-color:#ffffff39;backdrop-filter:blur(30px) saturate(160%);-webkit-backdrop-filter:blur(30px) saturate(160%)}.nav-button{background:#ffffff04;border:1px solid transparent}.nav-button[aria-current="page"]{background:linear-gradient(#ffffff20,#ffffff09);border-color:#ffffff35;box-shadow:inset 0 1px #ffffff20}.nav-button:last-child{background:linear-gradient(#ffffff38,#ffffff15);color:#f6faff;border-color:#ffffff40}
+.view:not(#work),#work{position:relative;border:1px solid #ffffff32;background:linear-gradient(135deg,#9bb9e818,#11192855);border-radius:28px;box-shadow:inset 0 1px 0 #ffffff20,0 20px 60px #0003;backdrop-filter:blur(32px) saturate(140%);-webkit-backdrop-filter:blur(32px) saturate(140%)}#work{padding:0 30px 8px;margin-top:26px}.view:not(#work){margin-bottom:35px}dialog{background:linear-gradient(135deg,#233046db,#0c1223e8);backdrop-filter:blur(35px);-webkit-backdrop-filter:blur(35px)}.tag,.pill:not(.primary),.close,.arcade-tag{background:linear-gradient(130deg,#ffffff16,#ffffff05);border:1px solid #ffffff30;box-shadow:inset 0 1px #ffffff12}
+.edge-light{position:relative;--cursor-x:50%;--cursor-y:0%;--edge-alpha:.55}.edge-light:after{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:2px;pointer-events:none;z-index:2;background:radial-gradient(240px circle at var(--cursor-x) var(--cursor-y),#b6f6ff 0%,#58cfeec9 23%,#b192fa6b 48%,transparent 75%);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;opacity:var(--edge-alpha)}.edge-light:focus-within{--edge-alpha:.9}
+.skills-heading{margin-top:36px;display:flex;justify-content:space-between;align-items:baseline;gap:15px}.skills-heading h3{font-size:1.25rem;letter-spacing:-.03em;margin:0}.skills-heading span{font-size:.75rem;color:#a8bbca}.adobe-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}.adobe-card{border:1px solid #ffffff27;border-radius:18px;padding:20px;background:linear-gradient(140deg,#ffffff0e,#ffffff03);box-shadow:inset 0 1px #ffffff15;min-width:0}.skill-top{display:flex;align-items:center;gap:12px}.app-mark{display:grid;place-items:center;width:43px;height:43px;border-radius:11px;background:color-mix(in srgb,var(--app-color) 9%,#07111c);border:1px solid color-mix(in srgb,var(--app-color) 50%,transparent);color:var(--app-color);font-size:1.2rem;font-weight:600;flex-shrink:0}.skill-top h4{font-size:.9375rem;margin:0;font-weight:500}.skill-top strong{font-size:.875rem;color:#e0f6ff;margin-left:auto;font-variant-numeric:tabular-nums}.adobe-card p{color:#b1bece;line-height:1.65;font-size:.875rem;margin:15px 0}.skill-track{height:4px;border-radius:5px;background:#ffffff10;overflow:hidden}.skill-fill{height:100%;width:100%;border-radius:5px;background:linear-gradient(90deg,var(--app-color),#d5f5ff)}
+@media(max-width:620px){#work{padding:0 17px 4px;margin-top:16px}.desktop{padding-left:12px;padding-right:12px}.hero h1{font-size:clamp(2.8rem,11vw,4rem)}.adobe-grid{grid-template-columns:1fr}.skills-heading{align-items:flex-start;flex-direction:column;gap:7px}.dock{padding:11px 14px;bottom:calc(14px + env(safe-area-inset-bottom));gap:16px}.dock button{width:50px;height:50px}.view:not(#work){padding:24px}.adobe-card{padding:17px}}
+@media(prefers-reduced-motion:reduce),(hover:none){.edge-light{--cursor-x:50%!important;--cursor-y:0%!important;--edge-alpha:.5!important}}
+
+
+/* Personal content — portfolio imports */
+.logo{display:flex;align-items:center;background:#fff;border-radius:10px;padding:7px 10px;flex-shrink:0}.logo img{display:block;width:83px;height:50px;object-fit:contain}.profile-layout{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:30px;align-items:center}.profile-photo{display:block;width:100%;height:auto;border-radius:20px;border:1px solid #ffffff35}.profile-layout .page-title{font-size:clamp(2.6rem,4vw,4.1rem)}.profile-subtitle{color:#a9d3e4;line-height:1.6}.profile-facts{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:30px 0}.profile-facts>div{padding:20px;border:1px solid #ffffff24;border-radius:16px;background:#ffffff05}.profile-facts span{display:block;font-size:.75rem;letter-spacing:.14em;color:#9ab1c4;margin-bottom:12px}.profile-facts strong{font-size:.9375rem;font-weight:500}.profile-facts p{font-size:.875rem;color:#aab9c8;line-height:1.6;margin-bottom:0}.experience-list article{display:grid;grid-template-columns:115px 1fr;gap:15px;padding:20px 0;border-bottom:1px solid #ffffff15}.experience-list article>span{font-size:.875rem;color:#9ab1c4}.experience-list h4{margin:0;font-size:1rem;font-weight:500}.experience-list p{margin:7px 0 0;color:#acb9c7;font-size:.875rem}.contact-details,.download-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.brand-signature{display:flex;gap:20px;align-items:center;margin-top:40px;padding-top:25px;border-top:1px solid #ffffff20;color:#aab9c8;font-size:.875rem;line-height:1.7}.brand-signature img{width:120px;padding:10px;background:white;border-radius:12px}.project .cover.has-image{background:#080c13;padding:0}.project .cover.has-image img{object-fit:contain}.project .cover{height:310px}.detail-gallery{margin-top:25px}.detail-gallery figure{margin:0 0 25px}.detail-gallery img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid #ffffff20}.detail-gallery figcaption{font-size:.75rem;color:#a5b4c5;margin:10px 0;line-height:1.6}.dialog-body>.cover{display:none}dialog{max-width:1000px}.dialog-body{padding:30px}.project-meta h3{line-height:1.4}.contact-link{word-break:break-word}
+@media(max-width:700px){.profile-layout{grid-template-columns:1fr}.profile-photo{max-width:240px;grid-row:1;margin:auto}.profile-facts{grid-template-columns:1fr}.project .cover{height:250px}.experience-list article{grid-template-columns:1fr;gap:8px}.brand-signature{flex-wrap:wrap}.logo img{width:50px;height:32px}.logo{padding:5px 7px}.hero .eyebrow{font-size:.625rem;letter-spacing:.1em}.dialog-body{padding:18px}.hero-actions{flex-wrap:wrap}}
+
+
+/* Transparent brand mark: original PNG already has alpha. */
+.logo{display:block;width:88px;height:44px;padding:0;background:transparent;border:0;border-radius:0;overflow:hidden;box-shadow:none}
+.logo img{display:block;width:88px;height:auto;max-width:none;object-fit:initial}
+.brand-mark{display:block;width:110px;height:52px;overflow:hidden;flex-shrink:0}
+.brand-signature .brand-mark img{display:block;width:110px;height:auto;padding:0;background:transparent;border-radius:0}
+@media(max-width:700px){.logo{width:66px;height:36px}.logo img{width:66px;height:auto}.brand-mark{width:100px;height:48px}.brand-signature .brand-mark img{width:100px}}
+
+</style>
+</head>
+<body>
+<div class="aurora" aria-hidden="true"><div class="aurora-layer"></div><div class="aurora-layer second"></div></div>
+  <a class="skip" href="#content">Lewati navigasi</a>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true"><symbol id="grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol><symbol id="user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></symbol><symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol></svg>
+  <header class="menubar"><a class="logo" href="#work" aria-label="WS Creative Solution — Evan Setia Adiyatma"><img src="assets/ws-creative-solution.png" alt="WS Creative Solution"></a><nav class="navigation" aria-label="Navigasi utama"><button class="nav-button" data-view="work" aria-current="page">Work</button><button class="nav-button" data-view="about">About</button><button class="nav-button" data-view="game">Arcade</button><button class="nav-button" data-view="contact">Let's talk ↗</button></nav><div class="clock-wrap">LOCAL TIME <time id="clock" aria-label="Waktu lokal"></time></div></header>
+  <div class="desktop">
+    <div class="window"><div class="titlebar"><div class="lights" aria-hidden="true"><i></i><i></i><i></i></div><span class="window-title" id="window-title">Selected Works</span><span class="window-note">Evan / Portfolio</span></div>
+      <div class="workspace">
+        <main class="main" id="content" tabindex="-1">
+          <section class="view" id="work" aria-label="Selected Works"><div class="hero"><div><div class="eyebrow">Evan Setia Adiyatma / Graphic designer</div><h1>Ideas made<br><span>unforgettable.</span></h1><p class="intro">Brand design, motion, photography & 3D.<br>Based in Jakarta, Indonesia.</p><div class="hero-actions"><a class="pill primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="pill" href="#about">Meet <span data-name>Evan</span></a></div></div></div><div class="section-bar"><h2>Selected works</h2><span>11 projects / Selected portfolio</span></div><div class="project-grid" id="projects"></div><div class="statusbar"><span>Brand identity · Digital campaigns · Visual design</span><span>© <span id="year"></span> <span data-name>Evan</span></span></div></section>
+          <section class="view" id="about" hidden aria-labelledby="about-title"><div class="eyebrow">Behind the work</div><div class="profile-layout"><div><h2 class="page-title" id="about-title">Evan Setia<br>Adiyatma.</h2><p class="profile-subtitle">Graphic Designer · Jakarta, Indonesia</p><p class="prose" id="bio"></p></div><img class="profile-photo" src="assets/evan-profile.webp" alt="Foto profil Evan Setia Adiyatma" width="650" height="765"></div><div class="profile-facts"><div><span>EDUCATION</span><strong>Visual Communication Design</strong><p>Bina Nusantara University</p></div><div><span>INTERESTS</span><strong>Motorcycles & sports</strong><p>Curious, adaptable, and eager to learn.</p></div></div><div class="tags" id="skills"></div><div class="skills-heading"><h3>Adobe Creative Suite</h3><span>Application proficiency</span></div><div class="adobe-grid" id="adobe-skills"></div><div class="info-card"><h3>Beyond Adobe</h3><div class="tags"><span class="tag">Figma</span><span class="tag">Blender</span><span class="tag">CapCut</span><span class="tag">Canva</span><span class="tag">DaVinci Resolve</span></div></div><div class="info-card"><h3>Experience</h3><div class="experience-list"><article><span>2025–2026</span><div><h4>Lead of Graphic Designer</h4><p>PT. Aura Mental Indonesia</p></div></article><article><span>2023–2024</span><div><h4>Sales Marketing</h4><p>PT. ID Express Logistik Indonesia</p></div></article><article><span>2022–2023</span><div><h4>Graphic Designer</h4><p>PT. Java Juice Indonesia</p></div></article><article><span>2021–2022</span><div><h4>Graphic Designer</h4><p>PT. Platinum Berkat Abadi</p></div></article><article><span>2018–2019</span><div><h4>Graphic Designer</h4><p>BrothersVapecoco</p></div></article></div></div><div class="info-card"><h3>What I do</h3><p class="prose">Brand & product design, image manipulation, motion graphics, layout, logo design, product photography, and 3D modeling.</p></div></section>
+          <section class="view" id="contact" hidden aria-labelledby="contact-title"><div class="eyebrow">Let's collaborate</div><h2 class="page-title" id="contact-title">Have something<br>in mind?</h2><p class="prose">Tell me about your brand, your next project, or an idea you would like to bring to life.</p><a id="email-link" class="contact-link" hidden><svg class="icon"><use href="#mail"/></svg><span id="email-text"></span></a><p id="contact-note" class="contact-note" hidden></p><div class="contact-details"><a class="pill" href="https://wa.me/6285770420108" target="_blank" rel="noopener noreferrer">WhatsApp · +62 857 7042 0108 ↗</a><a class="pill" href="tel:+6285770420108">Telepon</a></div><p class="contact-note">Jakarta, Indonesia</p><div class="info-card"><h3>Portfolio documents</h3><div class="download-links"><a class="pill" href="assets/evan-portfolio-graphic-design.pdf" target="_blank" rel="noopener">Graphic Design Portfolio ↗</a><a class="pill" href="assets/evan-portfolio-archive.pdf" target="_blank" rel="noopener">Portfolio Archive ↗</a></div></div><div class="brand-signature"><span class="brand-mark"><img src="assets/ws-creative-solution.png" alt="WS Creative Solution"></span><span>Evan Setia Adiyatma<br>Graphic Design & Visual Communication</span></div></section>
+        
+<section class="view" id="game" hidden aria-labelledby="game-title">
+ <div class="arcade-header"><div><div class="eyebrow">A little creative break</div><h2 id="game-title">Snake / After hours.</h2></div><span class="arcade-tag">CLASSIC ARCADE · 01</span></div>
+ <div class="arcade-layout"><div class="board-shell"><canvas id="snake-board" width="540" height="540" tabindex="0" aria-label="Papan Snake. Gunakan tombol panah atau WASD setelah menekan Mulai." aria-describedby="game-status game-help">Browser Anda perlu mendukung Canvas untuk menampilkan Snake.</canvas></div>
+ <div class="game-panel"><div class="score-row"><div><small>SCORE</small><strong id="score">00</strong></div><div><small>SESSION BEST</small><strong id="best">00</strong></div></div><div class="game-buttons"><button id="start-game" class="pill primary">Mulai</button><button id="pause-game" class="pill" disabled>Jeda</button></div><p id="game-status" role="status" aria-live="polite">Makan titik pink. Hindari dinding dan tubuh sendiri.</p><div class="dpad" aria-label="Kontrol arah"><button data-direction="up" aria-label="Atas">↑</button><button data-direction="left" aria-label="Kiri">←</button><button data-direction="down" aria-label="Bawah">↓</button><button data-direction="right" aria-label="Kanan">→</button></div><p class="game-help" id="game-help">Panah / WASD untuk bergerak.<br>Spasi untuk jeda saat papan fokus.<br>Di HP, gunakan tombol arah.<br>Game otomatis dijeda saat Anda berpindah tab.</p></div></div>
+</section>
+</main>
+      </div>
+    </div>
+  </div>
+  <nav class="dock" aria-label="Dock"><button data-view="work" aria-label="Selected Works" aria-current="page"><svg class="icon"><use href="#grid"/></svg></button><button data-view="about" aria-label="About Me"><svg class="icon"><use href="#user"/></svg></button><button data-view="contact" aria-label="Contact"><svg class="icon"><use href="#mail"/></svg></button></nav>
+  <dialog id="project-dialog" aria-labelledby="project-title"><div class="titlebar"><span class="window-title">Project overview</span><button class="close" id="close-dialog">Tutup ×</button></div><div class="dialog-body" id="project-detail"></div></dialog>
+  <noscript><p class="noscript">Aktifkan JavaScript untuk membuka galeri, profil, dan kontak portofolio ini.</p></noscript>
+  <script>
+    // =============================================================
+    // EDIT DI SINI: profil, email, proyek, dan gambar milik Anda.
+    // Proyek di bawah bersumber dari kedua PDF portofolio pemilik.
+    // Gambar dan dokumen tersedia di folder assets; unggah folder itu bersama index.html.
+    // Untuk gambar: unggah karya.jpg, lalu isi image: "karya.jpg".
+    // =============================================================
+    const PORTFOLIO = {
+      name: "Evan Setia Adiyatma",
+      email: "Evanadyatma09@gmail.com",
+      bio: "Creative Graphic Designer with over 5 years of experience in brand identity, digital campaigns, and marketing communication across FMCG, retail, logistics, and sports. I combine Adobe Creative Suite, Figma, photography, and UI/UX fundamentals to translate business objectives into visual communication.",
+      skills: ["Brand Identity", "Digital Campaigns", "Visual Storytelling"],
+      // Nilai skill berdasarkan pernyataan pemilik portofolio; edit sesuai aplikasi yang dikuasai.
+      adobeSkills: [{"code":"Ps","name":"Adobe Photoshop","color":"#52baff","description":"Photo editing, retouching & compositing.","level":100},{"code":"Ai","name":"Adobe Illustrator","color":"#ffad53","description":"Vector illustration, logos & brand identity.","level":100},{"code":"Id","name":"Adobe InDesign","color":"#ff72a0","description":"Editorial layouts, typography & print design.","level":100},{"code":"Pr","name":"Adobe Premiere Pro","color":"#b99aff","description":"Video editing, pacing & color correction.","level":100},{"code":"Ae","name":"Adobe After Effects","color":"#a99aff","description":"Motion graphics, animation & compositing.","level":100},{"code":"Lr","name":"Adobe Lightroom","color":"#80cfff","description":"Photo development, color grading & image workflow.","level":100},{"code":"Au","name":"Adobe Audition","color":"#75e9c3","description":"Audio editing, cleanup & mixing.","level":100},{"code":"An","name":"Adobe Animate","color":"#f397ff","description":"2D animation & interactive visual content.","level":100}],
+      projects: [
+  {
+    "title": "Garuda Fight Championship",
+    "category": "Sports · Brand development",
+    "role": "Head of Graphic Design / Brand Development",
+    "description": "Identitas komunikasi visual untuk Garuda Fight Championship (GFC), ajang olahraga tarung Indonesia. Portofolio ini mencakup poster pertandingan, materi promosi event, konten atlet, dan aset siaran digital.",
+    "deliverables": "Fight posters, match-day announcements, athlete graphics, face-to-face assets, and live-stream promotions.",
+    "pages": [
+      [
+        "recent",
+        7
+      ],
+      [
+        "recent",
+        8
+      ]
+    ],
+    "link": "https://drive.google.com/drive/folders/1KODFU3T6RQygdzBETW4VnXcHKWnYmQ3U?usp=sharing",
+    "linkText": "Lihat aset motion",
+    "wordmark": "Garuda Fight Championship",
+    "eyebrow": "Sports · Brand development",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/recent-07-cover.webp",
+    "gallery": [
+      {
+        "image": "assets/recent-07.webp",
+        "caption": "Garuda Fight Championship — Graphic Design Portfolio, halaman 7"
+      },
+      {
+        "image": "assets/recent-08.webp",
+        "caption": "Garuda Fight Championship — Graphic Design Portfolio, halaman 8"
+      }
+    ]
+  },
+  {
+    "title": "HSL Fragrance",
+    "category": "Fragrance · Digital marketing",
+    "role": "Graphic Design / Live Stream Operator",
+    "description": "Materi visual untuk brand parfum HSL Fragrance. Karya menggabungkan foto produk, informasi varian, dan desain promosi untuk kebutuhan pemasaran digital serta live streaming.",
+    "deliverables": "Product visuals, promotional layouts, fragrance variant graphics, and live-stream support.",
+    "pages": [
+      [
+        "recent",
+        9
+      ]
+    ],
+    "wordmark": "HSL Fragrance",
+    "eyebrow": "Fragrance · Digital marketing",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/recent-09-cover.webp",
+    "gallery": [
+      {
+        "image": "assets/recent-09.webp",
+        "caption": "HSL Fragrance — Graphic Design Portfolio, halaman 9"
+      }
+    ]
+  },
+  {
+    "title": "Weigu Dimsum & Gyoza",
+    "category": "Food & beverage · Graphic design",
+    "role": "Graphic Designer",
+    "description": "Desain komunikasi untuk Weigu, brand dimsum dan gyoza dengan layanan takeaway dan delivery. Koleksi menampilkan materi promosi makanan dan kampanye Chiquru dengan warna kuat serta hierarki informasi produk.",
+    "deliverables": "Food promotional designs, campaign layouts, product communication, and social media visuals.",
+    "pages": [
+      [
+        "recent",
+        10
+      ]
+    ],
+    "wordmark": "Weigu Dimsum & Gyoza",
+    "eyebrow": "Food & beverage · Graphic design",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/recent-10-cover.webp",
+    "gallery": [
+      {
+        "image": "assets/recent-10.webp",
+        "caption": "Weigu Dimsum & Gyoza — Graphic Design Portfolio, halaman 10"
+      }
+    ]
+  },
+  {
+    "title": "Roti Bandara",
+    "category": "Packaging · Product identity",
+    "role": "Graphic Designer · PT. Java Juice Indonesia",
+    "description": "Identitas visual dan desain kemasan untuk brand e-liquid Roti Bandara. Konsep visual bertema perjalanan dan bandara diterapkan pada label, kemasan, mockup produk, dan materi pengumuman peluncuran. Kedua portofolio memperlihatkan perkembangan dan penerapan desainnya.",
+    "deliverables": "Packaging, labels, bottle mockups, launch visuals, and brand applications.",
+    "pages": [
+      [
+        "recent",
+        11
+      ],
+      [
+        "archive",
+        2
+      ],
+      [
+        "archive",
+        3
+      ],
+      [
+        "archive",
+        13
+      ]
+    ],
+    "wordmark": "Roti Bandara",
+    "eyebrow": "Packaging · Product identity",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/recent-11-cover.webp",
+    "gallery": [
+      {
+        "image": "assets/recent-11.webp",
+        "caption": "Roti Bandara — Graphic Design Portfolio, halaman 11"
+      },
+      {
+        "image": "assets/archive-02.webp",
+        "caption": "Roti Bandara — Portfolio Archive, halaman 2"
+      },
+      {
+        "image": "assets/archive-03.webp",
+        "caption": "Roti Bandara — Portfolio Archive, halaman 3"
+      },
+      {
+        "image": "assets/archive-13.webp",
+        "caption": "Roti Bandara — Portfolio Archive, halaman 13"
+      }
+    ]
+  },
+  {
+    "title": "Product & Packaging Mockups",
+    "category": "Packaging · Product visualization",
+    "role": "Product visualization",
+    "description": "Eksplorasi tampilan kemasan dan produk dalam format mockup. Halaman ini menunjukkan bagaimana desain label dan kemasan disajikan sebagai presentasi produk.",
+    "deliverables": "Packaging mockup and product mockup presentation.",
+    "pages": [
+      [
+        "archive",
+        4
+      ]
+    ],
+    "wordmark": "Product & Packaging Mockups",
+    "eyebrow": "Packaging · Product visualization",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/archive-04.webp",
+    "gallery": [
+      {
+        "image": "assets/archive-04.webp",
+        "caption": "Product & Packaging Mockups — Portfolio Archive, halaman 4"
+      }
+    ]
+  },
+  {
+    "title": "Product Photography",
+    "category": "Photography · Image manipulation",
+    "role": "Product photography / Visual composition",
+    "description": "Koleksi fotografi minuman dan komposisi visual produk. Materi mencakup foto kopi serta seri Kopi Kalcer yang menggabungkan penataan produk, pencahayaan, dan manipulasi gambar.",
+    "deliverables": "Beverage photography, product compositions, and promotional image treatments.",
+    "pages": [
+      [
+        "archive",
+        5
+      ],
+      [
+        "archive",
+        6
+      ]
+    ],
+    "wordmark": "Product Photography",
+    "eyebrow": "Photography · Image manipulation",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/archive-05.webp",
+    "gallery": [
+      {
+        "image": "assets/archive-05.webp",
+        "caption": "Product Photography — Portfolio Archive, halaman 5"
+      },
+      {
+        "image": "assets/archive-06.webp",
+        "caption": "Product Photography — Portfolio Archive, halaman 6"
+      }
+    ]
+  },
+  {
+    "title": "Pangchil — Pangsit Chili Oil",
+    "category": "Food & beverage · Brand content",
+    "role": "Business / Brand visual content",
+    "description": "Pangchil diperkenalkan dalam portofolio sebagai bisnis F&B pangsit chili oil. Karya mencakup foto produk, desain kemasan, materi promosi, serta susunan konten media sosial.",
+    "deliverables": "Product imagery, packaging applications, social media layouts, and promotional content.",
+    "pages": [
+      [
+        "archive",
+        7
+      ],
+      [
+        "archive",
+        8
+      ]
+    ],
+    "wordmark": "Pangchil — Pangsit Chili Oil",
+    "eyebrow": "Food & beverage · Brand content",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/archive-07.webp",
+    "gallery": [
+      {
+        "image": "assets/archive-07.webp",
+        "caption": "Pangchil — Pangsit Chili Oil — Portfolio Archive, halaman 7"
+      },
+      {
+        "image": "assets/archive-08.webp",
+        "caption": "Pangchil — Pangsit Chili Oil — Portfolio Archive, halaman 8"
+      }
+    ]
+  },
+  {
+    "title": "3D Imaging",
+    "category": "3D · Product & spatial visualization",
+    "role": "3D imaging / Modeling",
+    "description": "Eksplorasi visualisasi tiga dimensi berupa presentasi botol parfum Le Somme dan tampilan ruang atau gerai Kopi Kenangan. Disajikan sebagai koleksi karya 3D, tanpa menyatakan hubungan kerja dengan brand yang ditampilkan.",
+    "deliverables": "Product renders and retail-space visualization.",
+    "pages": [
+      [
+        "archive",
+        9
+      ]
+    ],
+    "wordmark": "3D Imaging",
+    "eyebrow": "3D · Product & spatial visualization",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/archive-09.webp",
+    "gallery": [
+      {
+        "image": "assets/archive-09.webp",
+        "caption": "3D Imaging — Portfolio Archive, halaman 9"
+      }
+    ]
+  },
+  {
+    "title": "Nongki Nongki",
+    "category": "UI/UX · Mobile app concept",
+    "role": "UI/UX design",
+    "description": "Konsep aplikasi untuk menemukan kedai kopi terdekat sesuai kebutuhan pengguna. Informasi seperti ketersediaan meja dan colokan menjadi bagian dari pertimbangan pengalaman pengguna.",
+    "deliverables": "Mobile interface screens, user experience concept, and Figma prototype.",
+    "pages": [
+      [
+        "archive",
+        10
+      ]
+    ],
+    "link": "https://www.figma.com/proto/Mjb07sjHH9EHuycJxtgmcW/nongki-nongki?node-id=18-232&t=q6N4BnBBmS3x7oGI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1",
+    "linkText": "Buka prototipe Figma",
+    "wordmark": "Nongki Nongki",
+    "eyebrow": "UI/UX · Mobile app concept",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/archive-10.webp",
+    "gallery": [
+      {
+        "image": "assets/archive-10.webp",
+        "caption": "Nongki Nongki — Portfolio Archive, halaman 10"
+      }
+    ]
+  },
+  {
+    "title": "Fruity / Mix Mango",
+    "category": "Product visuals · Label design",
+    "role": "Graphic design · PT. Java Juice Indonesia",
+    "description": "Koleksi visual produk dengan tema buah untuk lini Mix Mango, disertai desain label Fresh Fruit Mix Mango. Warna, komposisi buah, dan tipografi digunakan sebagai elemen utama presentasi produk.",
+    "deliverables": "Fruit-themed product compositions and label design.",
+    "pages": [
+      [
+        "archive",
+        11
+      ],
+      [
+        "archive",
+        12
+      ]
+    ],
+    "wordmark": "Fruity / Mix Mango",
+    "eyebrow": "Product visuals · Label design",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/archive-11.webp",
+    "gallery": [
+      {
+        "image": "assets/archive-11.webp",
+        "caption": "Fruity / Mix Mango — Portfolio Archive, halaman 11"
+      },
+      {
+        "image": "assets/archive-12.webp",
+        "caption": "Fruity / Mix Mango — Portfolio Archive, halaman 12"
+      }
+    ]
+  },
+  {
+    "title": "Tokopedia — Campus Campaign",
+    "category": "Academic project · Photography",
+    "role": "Campus project / Photography & image manipulation",
+    "description": "Proyek kampus berupa visual kampanye Tokopedia. Materi menggabungkan teknik fotografi dan manipulasi gambar untuk membentuk iklan marketplace yang menarik.",
+    "deliverables": "Conceptual campaign artwork combining photography and image manipulation.",
+    "pages": [
+      [
+        "archive",
+        14
+      ]
+    ],
+    "wordmark": "Tokopedia — Campus Campaign",
+    "eyebrow": "Academic project · Photography",
+    "footer": "EVAN SETIA ADIYATMA",
+    "background": "#111926",
+    "color": "#a4e1f3",
+    "image": "assets/archive-14.webp",
+    "gallery": [
+      {
+        "image": "assets/archive-14.webp",
+        "caption": "Tokopedia — Campus Campaign — Portfolio Archive, halaman 14"
+      }
+    ]
+  }
+]
+    };
+    const $ = (s) => document.querySelector(s);
+    function el(tag,text,cls){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;return node;}
+    function cover(project){const node=el("div",undefined,"cover");node.style.setProperty("--cover",project.background);node.style.setProperty("--cover-ink",project.color);node.append(el("small",project.eyebrow),el("strong",project.wordmark),el("em",project.footer));node.querySelector("strong").style.whiteSpace="pre-line";if(project.image){const img=el("img");img.src=project.image;img.alt=project.title;img.loading="lazy";img.addEventListener("load",()=>node.classList.add("has-image"));img.addEventListener("error",()=>img.remove());node.prepend(img);}return node;}
+    document.querySelectorAll("[data-name]").forEach(node=>node.textContent=PORTFOLIO.name);
+    document.title=PORTFOLIO.name+" — Design Portfolio";
+    $("#bio").textContent=PORTFOLIO.bio;
+    PORTFOLIO.skills.forEach(skill=>$("#skills").append(el("span",skill,"tag")));
+    $("#year").textContent=new Date().getFullYear();
+    if(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(PORTFOLIO.email)){ $("#email-link").href="mailto:"+PORTFOLIO.email;$("#email-text").textContent=PORTFOLIO.email;$("#email-link").hidden=false;$("#contact-note").hidden=true; }
+    const dialog=$("#project-dialog");let projectTrigger;
+    PORTFOLIO.projects.forEach(project=>{const button=el("button",undefined,"project");button.type="button";button.setAttribute("aria-label","Lihat proyek "+project.title);const meta=el("div",undefined,"project-meta"),copy=el("div");copy.append(el("h3",project.title),el("p",project.category));const arrow=el("span","↗");arrow.setAttribute("aria-hidden","true");meta.append(copy,arrow);button.append(cover(project),meta);button.addEventListener("click",()=>{projectTrigger=button;const detail=$("#project-detail");detail.replaceChildren(cover(project));const title=el("h2",project.title);title.id="project-title";detail.append(el("div",project.category,"eyebrow"),title,el("p",project.description));[["Role",project.role],["Deliverables",project.deliverables]].forEach(([heading,text])=>detail.append(el("h3",heading),el("p",text)));if(project.link){const link=el("a",project.linkText,"pill");link.href=project.link;link.target="_blank";link.rel="noopener noreferrer";detail.append(link);}const gallery=el("div",undefined,"detail-gallery");project.gallery.forEach(item=>{const figure=el("figure"),a=el("a"),img=el("img");a.href=item.image;a.target="_blank";a.rel="noopener";a.setAttribute("aria-label","Buka gambar ukuran penuh: "+item.caption);img.src=item.image;img.alt=item.caption;img.loading="lazy";a.append(img);figure.append(a,el("figcaption",item.caption));gallery.append(figure);});detail.append(gallery);dialog.showModal();document.body.style.overflow="hidden";$("#close-dialog").focus();});$("#projects").append(button);});
+    $("#close-dialog").addEventListener("click",()=>dialog.close());
+    dialog.addEventListener("click",event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
+    dialog.addEventListener("close",()=>{document.body.style.overflow="";projectTrigger?.focus();});
+    const titles={work:"Selected Works",about:"About Me",contact:"Contact",game:"Arcade"};
+    function showView(focus=false){const view=location.hash.slice(1);const selected=Object.hasOwn(titles,view)?view:"work";document.querySelectorAll(".view").forEach(node=>node.hidden=node.id!==selected);document.querySelectorAll("[data-view]").forEach(button=>{if(button.dataset.view===selected)button.setAttribute("aria-current","page");else button.removeAttribute("aria-current");});$("#window-title").textContent=titles[selected];if(focus)$("#content").focus({preventScroll:true});}
+    document.querySelectorAll("[data-view]").forEach(button=>button.addEventListener("click",()=>{location.hash=button.dataset.view;}));
+    window.addEventListener("hashchange",()=>showView(true));showView();
+    function clock(){const now=new Date();$("#clock").textContent=now.toLocaleTimeString("id-ID",{hour:"2-digit",minute:"2-digit"});$("#clock").dateTime=now.toISOString();}clock();setInterval(clock,60000);
+  
+    // PARALLAX: efek hanya diperbarui ketika scroll berubah.
+    const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+    const aurora = document.querySelector(".aurora");
+    let scrollFrame = 0;
+    function updateAurora(){
+      scrollFrame=0;
+      const progress=Math.min(1,Math.max(0,window.scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)));
+      const p=reducedMotion.matches?0:progress;
+      aurora.style.setProperty("--shift",(p*160)+"px");
+      aurora.style.setProperty("--drift",(p*-120)+"px");
+      aurora.style.setProperty("--turn",(p*18)+"deg");
+    }
+    function scheduleAurora(){if(!scrollFrame)scrollFrame=requestAnimationFrame(updateAurora);}
+    addEventListener("scroll",scheduleAurora,{passive:true});addEventListener("resize",scheduleAurora);reducedMotion.addEventListener("change",scheduleAurora);updateAurora();
+
+    // SNAKE CORE: aturan murni, terpisah dari tampilan untuk pemeriksaan.
+    function nextSnake(state, direction, size){
+      const head={x:state.snake[0].x+direction.x,y:state.snake[0].y+direction.y};
+      const eating=!!state.food&&head.x===state.food.x&&head.y===state.food.y;
+      const body=eating?state.snake:state.snake.slice(0,-1);
+      if(head.x<0||head.x>=size||head.y<0||head.y>=size||body.some(p=>p.x===head.x&&p.y===head.y))return {...state,dead:true};
+      const snake=[head,...state.snake];if(!eating)snake.pop();
+      return {snake,food:eating?null:state.food,score:state.score+(eating?10:0),dead:false};
+    }
+    function emptyCell(snake,size,random=Math.random){
+      const free=[];for(let y=0;y<size;y++)for(let x=0;x<size;x++)if(!snake.some(p=>p.x===x&&p.y===y))free.push({x,y});
+      return free.length?free[Math.floor(random()*free.length)]:null;
+    }
+    const board=document.querySelector("#snake-board"),ctx=board.getContext("2d");
+    const size=18,unit=30,directions={up:{x:0,y:-1},down:{x:0,y:1},left:{x:-1,y:0},right:{x:1,y:0}};
+    let gameState,direction,queued,turned=false,timer=null,phase="ready",best=0;
+    const statusNode=document.querySelector("#game-status"),startButton=document.querySelector("#start-game"),pauseButton=document.querySelector("#pause-game");
+    function drawSnake(){
+      ctx.clearRect(0,0,540,540);ctx.fillStyle="#07121c";ctx.fillRect(0,0,540,540);
+      ctx.strokeStyle="#ffffff07";ctx.lineWidth=1;
+      for(let i=0;i<=size;i++){ctx.beginPath();ctx.moveTo(i*unit,0);ctx.lineTo(i*unit,540);ctx.stroke();ctx.beginPath();ctx.moveTo(0,i*unit);ctx.lineTo(540,i*unit);ctx.stroke();}
+      if(gameState.food){ctx.fillStyle="#ff89bb";ctx.shadowColor="#ff68a8";ctx.shadowBlur=16;ctx.beginPath();ctx.arc(gameState.food.x*unit+15,gameState.food.y*unit+15,8,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;}
+      gameState.snake.forEach((p,i)=>{ctx.fillStyle=i===0?"#d8fbff":"#5bc6cf";ctx.shadowColor="#56cdda";ctx.shadowBlur=i===0?12:0;ctx.fillRect(p.x*unit+3,p.y*unit+3,unit-6,unit-6);});ctx.shadowBlur=0;
+      if(phase!=="running"){ctx.fillStyle="#02081099";ctx.fillRect(0,0,540,540);ctx.textAlign="center";ctx.fillStyle="#effbff";ctx.font="500 28px system-ui";ctx.fillText({ready:"READY TO PLAY?",paused:"PAUSED",over:"GAME OVER",won:"YOU WIN"}[phase],270,255);ctx.font="16px system-ui";ctx.fillStyle="#aac2d2";ctx.fillText(phase==="paused"?"Tekan Lanjut":phase==="ready"?"Tekan Mulai":"Tekan Main lagi",270,290);}
+    }
+    function stopTimer(){clearInterval(timer);timer=null;}
+    function updateScore(){document.querySelector("#score").textContent=String(gameState.score).padStart(2,"0");best=Math.max(best,gameState.score);document.querySelector("#best").textContent=String(best).padStart(2,"0");}
+    function resetSnake(){stopTimer();gameState={snake:[{x:7,y:9},{x:6,y:9},{x:5,y:9}],food:{x:12,y:9},score:0,dead:false};direction=directions.right;queued=direction;turned=false;updateScore();}
+    function tickSnake(){
+      direction=queued;turned=false;gameState=nextSnake(gameState,direction,size);
+      if(gameState.dead){phase="over";stopTimer();statusNode.textContent="Game over. Skor Anda "+gameState.score+".";pauseButton.disabled=true;startButton.textContent="Main lagi";}
+      else if(!gameState.food){gameState.food=emptyCell(gameState.snake,size);if(!gameState.food){phase="won";stopTimer();statusNode.textContent="Menang! Seluruh papan terisi.";pauseButton.disabled=true;startButton.textContent="Main lagi";}}
+      updateScore();drawSnake();
+    }
+    function startSnake(){resetSnake();phase="running";statusNode.textContent="Sedang bermain. Ambil titik pink!";startButton.textContent="Ulangi";pauseButton.textContent="Jeda";pauseButton.disabled=false;timer=setInterval(tickSnake,145);drawSnake();board.focus({preventScroll:true});}
+    function pauseSnake(){if(phase!=="running")return;phase="paused";stopTimer();pauseButton.textContent="Lanjut";statusNode.textContent="Dijeda. Tekan Lanjut untuk bermain kembali.";drawSnake();}
+    function togglePause(){if(phase==="running")pauseSnake();else if(phase==="paused"){phase="running";pauseButton.textContent="Jeda";statusNode.textContent="Sedang bermain.";timer=setInterval(tickSnake,145);drawSnake();board.focus({preventScroll:true});}}
+    function steer(name){const next=directions[name];if(phase!=="running"||turned||!next||next.x===-direction.x&&next.y===-direction.y)return;queued=next;turned=true;}
+    startButton.addEventListener("click",startSnake);pauseButton.addEventListener("click",togglePause);
+    document.querySelectorAll("[data-direction]").forEach(button=>button.addEventListener("click",()=>steer(button.dataset.direction)));
+    board.addEventListener("keydown",event=>{const key={ArrowUp:"up",ArrowDown:"down",ArrowLeft:"left",ArrowRight:"right",w:"up",s:"down",a:"left",d:"right"}[event.key];if(key){event.preventDefault();steer(key);}else if(event.code==="Space"){event.preventDefault();togglePause();}});
+    addEventListener("hashchange",()=>{if(document.querySelector("#game").hidden)pauseSnake();scheduleAurora();});
+    document.addEventListener("visibilitychange",()=>{if(document.hidden)pauseSnake();});addEventListener("blur",pauseSnake);
+    resetSnake();drawSnake();
+
+
+    // Adobe skill cards: edit PORTFOLIO.adobeSkills to update each application.
+    PORTFOLIO.adobeSkills.forEach(skill=>{
+      const card=el("article",undefined,"adobe-card");card.style.setProperty("--app-color",skill.color);
+      const top=el("div",undefined,"skill-top"),mark=el("span",skill.code,"app-mark");
+      mark.setAttribute("aria-hidden","true");top.append(mark,el("h4",skill.name),el("strong",skill.level+"%"));
+      const track=el("div",undefined,"skill-track"),fill=el("div",undefined,"skill-fill");
+      fill.style.width=Math.max(0,Math.min(100,skill.level))+"%";track.setAttribute("aria-hidden","true");track.append(fill);
+      card.append(top,el("p",skill.description),track);document.querySelector("#adobe-skills").append(card);
+    });
+    // Track a real pointer without blocking clicks, touch, or scrolling.
+    const lightTargets=[...document.querySelectorAll(".view,.navigation,.dock,.project,.adobe-card,dialog")];
+    lightTargets.forEach(panel=>panel.classList.add("edge-light"));
+    let lightFrame=0,lastPointer=null;
+    function paintLight(){
+      lightFrame=0;if(!lastPointer||reducedMotion.matches)return;
+      lightTargets.forEach(panel=>{
+        if(panel.hidden||panel.tagName==="DIALOG"&&!panel.open)return;
+        const r=panel.getBoundingClientRect();if(!r.width||!r.height||r.bottom<0||r.top>innerHeight)return;
+        const x=Math.max(0,Math.min(r.width,lastPointer.x-r.left));
+        const y=Math.max(0,Math.min(r.height,lastPointer.y-r.top));
+        panel.style.setProperty("--cursor-x",x+"px");panel.style.setProperty("--cursor-y",y+"px");
+        const inside=lastPointer.x>=r.left&&lastPointer.x<=r.right&&lastPointer.y>=r.top&&lastPointer.y<=r.bottom;
+        panel.style.setProperty("--edge-alpha",inside?"1":".45");
+      });
+    }
+    function scheduleLight(){if(!lightFrame)lightFrame=requestAnimationFrame(paintLight);}
+    document.addEventListener("pointermove",event=>{if(event.pointerType==="touch")return;lastPointer={x:event.clientX,y:event.clientY};scheduleLight();},{passive:true});
+    addEventListener("scroll",scheduleLight,{passive:true});addEventListener("resize",scheduleLight);addEventListener("hashchange",scheduleLight);
+    document.documentElement.addEventListener("pointerleave",()=>{lastPointer=null;lightTargets.forEach(panel=>{panel.style.removeProperty("--cursor-x");panel.style.removeProperty("--cursor-y");panel.style.removeProperty("--edge-alpha");});});
+
+</script>
+</body>
+</html>
